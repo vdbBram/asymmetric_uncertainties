@@ -1,5 +1,5 @@
 import numpy as np
-from asyfloat import asyfloat
+from core import asyfloat
 from asynumpy import asymatrix
 import asymath
 import asynumpy

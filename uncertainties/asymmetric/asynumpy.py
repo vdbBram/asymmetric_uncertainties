@@ -24,8 +24,8 @@ from numpy.core import numeric
 
 # Local modules:
 import asymath as umath_core
-import asyfloat as uncert_core
-from asyfloat import deprecation
+import core as uncert_core
+from core import deprecation
 
 __all__ = [
     # Factory functions:

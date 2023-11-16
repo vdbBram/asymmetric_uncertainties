@@ -224,6 +224,8 @@ author.'''
 from builtins import map
 from .core import *
 from .core import __all__  # For a correct help(uncertainties)
+from .asymmetric.core import *
+from .asymmetric.core import __all__
 
 # Numerical version:
 __version_info__ = (3, 1, 7)

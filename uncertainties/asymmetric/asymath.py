@@ -18,10 +18,8 @@ import sys
 import itertools
 
 # Local modules
-import asyfloat as uncert_core
-from asyfloat import (AsyAffineScalarFunc, to_asyaffine_scalar, LinearCombination)
-# import asyfloat as uncert_core
-# from asyfloat import AsyAffineScalarFunc, to_asyaffine_scalar, LinearCombination
+import core as uncert_core
+from core import (AsyAffineScalarFunc, to_asyaffine_scalar, LinearCombination)
 
 ###############################################################################
 
