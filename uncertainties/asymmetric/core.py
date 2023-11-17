@@ -63,7 +63,7 @@ __all__ = [
 
     # Utility functions (more are exported if NumPy is present):
     'lower_covariance_matrix',
-    'lower_covariance_matrix',
+    'upper_covariance_matrix',
 
     # Class for testing whether an object is a number with
     # uncertainty.  Not usually created by users (except through the
@@ -3524,7 +3524,7 @@ def asyfloat(nominal_value, lower_std = None, upper_std = None, tag = None):
     # uncertainty), and string that cannot be converted through
     # float():
     except (TypeError, ValueError):
-        print('xddddddddddddddddddddddddddd')
+        print('input cannot be converted, or no lower and upper std have been given')
 
         if tag is not None:
             tag_arg = tag  # tag keyword used:
